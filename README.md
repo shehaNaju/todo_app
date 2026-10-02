@@ -1,11 +1,16 @@
 # todo_app
 
-A new Flutter project.
+# Flutter Todo App (Provider State Management)
 
-## Getting Started
+A clean, modern Todo application built with **Flutter** and **Provider** for state management. This project demonstrates clean architecture, reactive state updates, and efficient task management using Flutter's official state management approach.
 
-This project is a starting point for a Flutter application.
+## Features
 
+- **Task Operations**: Add, complete, toggle, and delete todo items.
+- **Filtering**: View all, active, or completed tasks.
+- **State Management**: Built using `provider` and `ChangeNotifier` for clean Separation of Concerns.
+- **Persistence-Ready**: Cleanly decoupled business logic for easy integration with Local Storage (Hive, Shared Preferences, SQLite).
+- **Responsive UI**: Material Design 3 interface with dark/light mode support
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
